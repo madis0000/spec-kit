@@ -1,6 +1,6 @@
 <div align="center">
-    <img src="./media/logo_large.webp" alt="Spec Kit Logo" width="200" height="200"/>
-    <h1>🌱 Spec Kit</h1>
+    <img src="./media/logo_large.webp" alt="Madis Specificator Kit Logo" width="200" height="200"/>
+    <h1>🌱 Madis Specificator Kit</h1>
     <h3><em>Build high-quality software faster.</em></h3>
 </div>
 
@@ -9,11 +9,12 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/github/spec-kit/actions/workflows/release.yml"><img src="https://github.com/github/spec-kit/actions/workflows/release.yml/badge.svg" alt="Release"/></a>
-    <a href="https://github.com/github/spec-kit/stargazers"><img src="https://img.shields.io/github/stars/github/spec-kit?style=social" alt="GitHub stars"/></a>
-    <a href="https://github.com/github/spec-kit/blob/main/LICENSE"><img src="https://img.shields.io/github/license/github/spec-kit" alt="License"/></a>
-    <a href="https://github.github.io/spec-kit/"><img src="https://img.shields.io/badge/docs-GitHub_Pages-blue" alt="Documentation"/></a>
+    <a href="https://github.com/madis0000/spec-kit"><img src="https://img.shields.io/badge/forked%20from-github%2Fspec--kit-blue" alt="Forked from GitHub Spec-Kit"/></a>
+    <a href="https://github.com/madis0000/spec-kit/blob/main/LICENSE"><img src="https://img.shields.io/github/license/madis0000/spec-kit" alt="License"/></a>
 </p>
+
+> **Attribution:** This project is forked from [Spec-Kit](https://github.com/github/spec-kit) by GitHub, Inc.
+> Licensed under the MIT License.
 
 ---
 
@@ -51,7 +52,7 @@ Choose your preferred installation method:
 Install once and use everywhere:
 
 ```bash
-uv tool install specify-cli --from git+https://github.com/github/spec-kit.git
+uv tool install specify-cli --from git+https://github.com/madis0000/spec-kit.git
 ```
 
 Then use the tool directly:
@@ -80,7 +81,7 @@ uv tool install specify-cli --force --from git+https://github.com/github/spec-ki
 Run directly without installing:
 
 ```bash
-uvx --from git+https://github.com/github/spec-kit.git specify init <PROJECT_NAME>
+uvx --from git+https://github.com/madis0000/spec-kit.git specify init <PROJECT_NAME>
 ```
 
 **Benefits of persistent installation:**
